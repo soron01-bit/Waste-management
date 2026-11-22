@@ -1,0 +1,25 @@
+{
+  "name": "smart-waste-exchange",
+  "version": "1.0.0",
+  "description": "Smart Waste Exchange - Connecting people with recyclable waste to organizations and individuals who can reuse it",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "waste-exchange",
+    "recycling",
+    "sustainability",
+    "circular-economy",
+    "eco-rewards"
+  ],
+  "author": "Smart Waste Exchange Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.0.5"
+  }
+}
